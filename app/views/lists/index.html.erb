@@ -1,4 +1,8 @@
 <h1>My movies lists</h1>
+
+<%= cl_image_tag("ji7upen1cjnmevgir2se",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
+
 <ul>
   <% @lists.each do |list| %>
     <li> <%= link_to list.name, list_path(list) %> </li>

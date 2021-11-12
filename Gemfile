@@ -29,6 +29,9 @@ gem 'jbuilder', '~> 2.7'
 # gem dotenv-rails to hide API keys from public
 gem 'dotenv-rails', groups: [:development, :test]
 
+# gem cloudinary to send my images to Cloudinary cloud
+gem 'cloudinary', '~> 1.16.0'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
